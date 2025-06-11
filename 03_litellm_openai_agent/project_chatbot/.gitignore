@@ -1,0 +1,17 @@
+# Do not upload secret keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Chainlit & user files
+.chainlit/
+chat_history.json
+
+# uv / poetry / pip files
+uv.lock
+*.lock
